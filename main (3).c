@@ -18,7 +18,7 @@ void decimaltobinary(int a)
         printf("%d",num);//printing binary number
 }
 //Function to convert decimal to octal
-void decimaltooctahedral(int a)
+void decimaltooctal(int a)
 {
         int n,num,j;
         num=0;
@@ -68,7 +68,7 @@ int main()
         }
         else if(ch=='O')
         {
-                decimaltooctahedral(a);
+                decimaltooctal(a);
         }
         else if(ch=='H')
         {
@@ -80,3 +80,4 @@ int main()
         }
 return 0;//END OF PROGRAM
 }
+
